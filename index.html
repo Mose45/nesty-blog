@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>NewsHub</h1>
+    <input type="text" id="search" placeholder="Search news...">
+</header>
+
+<section class="hero">
+    <h2>Latest News & Blogs</h2>
+    <p>Stay informed with breaking news and stories.</p>
+</section>
+
+<section class="admin">
+    <h3>Create Post</h3>
+    <input type="text" id="title" placeholder="Post Title">
+    <textarea id="content" placeholder="Write your article..."></textarea>
+    <button onclick="addPost()">Publish</button>
+</section>
+
+<section class="posts">
+    <h2>Articles</h2>
+    <div id="postContainer"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
